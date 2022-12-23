@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+:root {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  background: #0015D0;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+
+.inline-f {
+  display: flex;
+  width: 80%;
+  margin-inline: auto;
+}
+
+.top-separation {
+  margin-top: 70px;
+}
